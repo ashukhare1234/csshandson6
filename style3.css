@@ -1,0 +1,170 @@
+*{
+    padding:0;    
+    }
+    body{
+    
+        border: 5px solid;
+        border-color: white green white orange;
+        opacity: 9;
+        background-image: url("sky.jpg.jpg");
+        background-size:auto;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -1;
+    
+    }
+    
+    .head
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2px;
+    }
+    .happy
+    {
+        border: 1px;
+        height:fit-content;
+        width: fit-content;
+        background-color: orange;
+    }
+    .in
+    {
+        border: 1px;;
+        height:fit-content;
+        width: fit-content;
+        background-color: white;
+    }
+    .day
+    {
+        border: 1px;;
+        height:fit-content;
+        width: fit-content;
+        background-color: green;
+    }
+    .sun
+    {
+        margin-top: 30px;
+        margin-left: 1145px;
+        position: relative;
+        animation-name: ex;
+        animation-duration:10s;
+    
+    }
+    @keyframes ex
+    {
+        0%{
+            right:0px;
+            top:0px;
+        }
+        25%
+        {
+            top:0px;
+            right:50px;
+        }
+        50%
+        {
+            
+            right: 100px;
+            top:0px;
+        }
+        75%
+        {
+            right: 150px;
+            top:0px
+        }
+    
+        100%
+        {
+            right: 150px;
+            top:0px;
+        }
+    }
+    
+    .car
+    {
+        z-index: 2;
+        position:absolute;
+        margin-top: 350px;
+        margin-left: 450px;
+    }
+    .flag
+    {
+        z-index: 2;
+        position:absolute;
+        margin-top: 330px;
+        margin-left: 710px;
+    }
+    .road
+    {
+        opacity:0.9;
+        position: relative;
+        background-repeat: repeat-x;
+        display:block;
+        bottom:0;
+        left:0;
+        right:0;
+        z-index:1;
+        height:200px;
+        animation: way 5s linear infinite;
+    }
+    @keyframes way
+    {
+        
+        100% {
+            background-position: -400px 0;
+          }
+    }
+    img {
+        overflow-clip-margin: content-box;
+        overflow: clip; 
+    }
+    .city
+    {
+        background-image:url("city.png.jpg");
+        background-repeat: repeat-x;
+        display:block;
+        position: relative;
+        height:200px;
+        bottom:0;
+        left:0;
+        right:0;
+        animation: city 10s linear infinite;
+    
+    }
+    @keyframes city
+    {
+        100% {
+            background-position: -400px 0;
+        } 
+    }
+    .t1
+    {
+        z-index: 2;
+        position:absolute;
+        margin-top: 460px;
+        margin-left: 485px;
+        animation: rotate 4s infinite;
+    }
+    @keyframes rotate
+    {
+        100%
+        {
+            transform: rotate(180deg);
+        }
+    }
+    .t2
+    {
+        z-index: 2;
+        position:absolute;
+        margin-top: 460px;
+        margin-left: 730px;
+        animation: rotate1 4s infinite;
+    }
+    @keyframes rotate1
+    {
+        100%
+        {
+            transform: rotate(180deg);
+        }
+    }

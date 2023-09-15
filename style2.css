@@ -1,0 +1,91 @@
+*{
+    text-align:center;
+}
+body
+{
+    background-color: yellow;
+}
+.box
+{
+    width: 40%;
+    margin: auto;
+    padding-top:50px;
+    padding-bottom: 50px;   
+}
+.com
+{
+    height: 100px;
+    width:100px;
+    border: 1px solid darkgreen;
+    background-color: green;
+    margin-top: 60px;
+}
+.next
+{
+    color: blue;
+}
+.one
+{
+    transition-timing-function: linear;
+    transition-duration: 5s;
+
+}
+.one:hover
+{
+    width:400px;
+}
+.two
+{
+    transition-timing-function: linear;
+    transition-duration: 5s;
+}
+.two:hover
+{
+    width: 300px;
+    height: 300px;
+}
+.three
+{
+    transition-timing-function: ease;
+    transition-duration: 5s;
+}
+.three:hover
+{
+    width: 400px;
+}
+.four
+{
+    transition-timing-function: ease-in;
+    transition-duration: 5s;
+}
+.four:hover
+{
+    width: 400px;
+}
+.five
+{
+    transition-timing-function:ease-out; 
+    transition-duration: 5s;
+}
+.five:hover
+{
+    width:400px;
+}
+.six
+{
+    transition-timing-function:ease-in-out; 
+    transition-duration: 5s;
+}
+.six:hover
+{
+    width:400px;
+}
+.seven
+{
+    transition-timing-function:ease; 
+    transition-duration: 5s;
+}
+.seven:hover
+{
+    width:400px;
+}
